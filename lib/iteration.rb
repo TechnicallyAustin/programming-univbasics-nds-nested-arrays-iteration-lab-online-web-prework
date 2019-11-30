@@ -63,7 +63,7 @@ def total_even_pairs(src)
     while row_index < src.count do
       el_index = 0
       #while el_index < src[row_index].count do
-        total = 0
+        
         num1 = src[row_index][el_index]
         el_1 = num1 % 2
         
