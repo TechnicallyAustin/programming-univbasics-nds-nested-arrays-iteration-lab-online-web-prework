@@ -60,7 +60,7 @@ def total_even_pairs(src)
   
   row_index = 0
   total = 0
-  src.count.times do { | evens |
+  src.count.times do |even|
     while row_index < src.count do
       el_index = 0
       #while el_index < src[row_index].count do
