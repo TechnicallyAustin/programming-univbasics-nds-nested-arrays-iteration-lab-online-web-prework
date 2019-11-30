@@ -75,7 +75,7 @@ def total_even_pairs(src)
           total += num1 + num2
           end
         row_index += 1
-        end 
+        end }
         
           return total
         end
